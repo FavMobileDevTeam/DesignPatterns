@@ -1,4 +1,7 @@
+import 'package:flutter/foundation.dart';
+
 abstract class VerificationFlow {
+  @nonVirtual
   void run() {
     init();
     sendCode();
